@@ -1,0 +1,5 @@
+
+AuthUserFile "/home/setomasaki46/bifree222.com/htpasswd/lp/timemonster/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user
