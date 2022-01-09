@@ -1,4 +1,44 @@
 @charset "UTF-8";
+.top-two-cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 69%;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.top-two-cols .left {
+  width: 580px;
+}
+
+.top-two-cols .left img {
+  width: 100%;
+}
+
+.top-two-cols .right {
+  width: 278px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+}
+
+.top-two-cols .right img {
+  width: 100%;
+  display: block;
+  margin: auto 0;
+  height: 70px;
+}
+
+._display-inline-block {
+  display: inline-block;
+}
+
 header .l-header {
   background-color: #000;
   color: #fff;
@@ -49,40 +89,6 @@ header .l-header .top-man-img img {
   width: 50%;
 }
 
-header .l-header .top-two-cols {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 69%;
-  margin: 0 auto;
-}
-
-header .l-header .top-two-cols .left {
-  width: 580px;
-}
-
-header .l-header .top-two-cols .left img {
-  width: 100%;
-}
-
-header .l-header .top-two-cols .right {
-  width: 278px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 50px;
-}
-
-header .l-header .top-two-cols .right img {
-  width: 100%;
-  display: block;
-  margin: auto 0;
-  height: 70px;
-}
-
 header .l-header .top-recommend {
   max-width: 900px;
   margin: auto;
@@ -97,15 +103,15 @@ header .l-header .top-recommend ul li span {
   margin-right: 15px;
 }
 
-header .l-header .three-cols {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 1120px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 auto;
+header .l-header .forties-skin__text {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.375rem;
+  line-height: 2.25rem;
+}
+
+header .l-header .forties-skin__text .gold {
+  color: #d9b54a;
 }
 
 .dotted {
@@ -120,6 +126,31 @@ main {
   margin: 0 auto;
 }
 
+main .subject {
+  margin-bottom: 50px;
+}
+
+main .subject h3, main .subject h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main .subject h3 .bigger, main .subject h2 .bigger {
+  font-size: 3.5rem;
+  color: #d9b54a;
+}
+
+main .subject h2 {
+  font-size: 2.625rem;
+  line-height: 3.8125rem;
+}
+
+main .subject h3 {
+  line-height: 2.5rem;
+  font-size: 1.75rem;
+}
+
 main .main-top {
   background-color: #000;
   color: #fff;
@@ -127,35 +158,193 @@ main .main-top {
 }
 
 main .main-top p {
-  margin-top: 0;
-}
-
-main .main-top h2.main-top-h2 {
-  margin-top: 35px;
-  text-align: center;
-}
-
-main .main-top h2.main-top-h2 .bg-gold {
-  font-size: 1.75rem;
-  background-color: #d9b54a;
-  height: 2.5rem;
-  color: #000;
-}
-
-main .main-top p {
   font-weight: bold;
   text-align: center;
   font-size: 1.375rem;
   line-height: 2.25rem;
+  margin-top: 0;
 }
 
 main .main-top p .gold {
   color: #d9b54a;
 }
 
+main .main-top .looks-old__contents {
+  max-width: 890px;
+  margin: auto;
+}
+
+main .main-top .looks-old__contents__item {
+  list-style: none;
+  margin-bottom: 60px;
+}
+
+main .main-top .looks-old__contents__item .subject {
+  margin-bottom: 20px;
+}
+
+main .main-top .looks-old__contents__item .subject h3 .bigger {
+  font-size: 2.5rem;
+}
+
+main .main-top .looks-old__contents__item__img {
+  text-align: center;
+}
+
+main .main-top .looks-old__contents__item__img img {
+  width: 80%;
+}
+
+main .main-top .measures {
+  max-width: 800px;
+  margin: auto;
+}
+
+main .main-top .measures-lists li {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 main .main-top .arrow-to-down {
   width: 600px;
-  margin: 80px auto 85px;
+  margin: 30px auto;
+}
+
+main .main-top .comments-img {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+main .main-top .comments-img img {
+  width: 100%;
+}
+
+main .main-top .comments-text {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+main .main-top .comments-text .bigger {
+  font-size: 3rem;
+  line-height: 2.25;
+  color: #d9b54a;
+}
+
+main .main-top .human-cells {
+  max-width: 1280px;
+  margin: auto;
+}
+
+main .main-top .human-cells-img {
+  max-width: 600px;
+  margin: auto;
+}
+
+main .main-top .human-cells-img img {
+  width: 100%;
+}
+
+main .main-top .human-cells-about {
+  text-align-last: left;
+  margin-bottom: 60px;
+}
+
+main .main-top .human-cells h4 {
+  width: 1120px;
+  margin: 0 80px 25px 80px;
+  font-size: 1.5rem;
+  padding-left: 15px;
+  border-left: #d9b54a 8px solid;
+}
+
+main .main-top .human-cells p {
+  font-size: 1.375rem;
+  line-height: 2.25rem;
+}
+
+main .main-top .human-cells p.stem-cell {
+  font-size: 1.375rem;
+  line-height: 2.25rem;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+main .main-top .about-monster {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+}
+
+main .main-top .about-monster .image {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 42%;
+}
+
+main .main-top .about-monster .image img {
+  width: 100%;
+}
+
+main .main-top .about-monster .intro {
+  background: transparent -webkit-gradient(linear, right top, left top, from(#FFFFFF00), to(#888888)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(270deg, #FFFFFF00 0%, #888888 100%) 0% 0% no-repeat padding-box;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding-left: 80px;
+  text-align-last: left;
+}
+
+main .main-top .about-monster .intro h2 {
+  color: #d9b54a;
+  font-size: 2.625rem;
+  margin-bottom: 12px;
+  text-align: initial;
+  text-shadow: 5px 5px 10px #000000;
+}
+
+main .main-top .about-monster .intro h2 span {
+  font-size: 1.8rem;
+}
+
+main .main-top .about-monster .intro p {
+  font-size: 1.375rem;
+  color: #fff;
+}
+
+main .main-top .about-monster .intro .p-last {
+  width: 52%;
+}
+
+main .main-top .warranty-text {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+main .main-top .warranty-text .big {
+  color: gold;
+  font-size: 2.5rem;
+}
+
+main .main-top .main-bottom-accordion {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+main .main-top .main-bottom-accordion h2.main-elements {
+  margin-bottom: 40px;
+  background: transparent -webkit-gradient(linear, left top, right top, from(#AAAAAA00), color-stop(23%, #808080), color-stop(77%, #808080), to(#AAAAAA00)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #AAAAAA00 0%, #808080 23%, #808080 77%, #AAAAAA00 100%) 0% 0% no-repeat padding-box;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 46px;
+}
+
+main .main-top .main-bottom-accordion h2.main-elements br {
+  display: none;
 }
 
 main .main-top .main-top-bottom h3 {
@@ -769,47 +958,6 @@ main .agig-outer .aging-care .timemonster {
   margin-bottom: 65px;
 }
 
-main .agig-outer .aging-care .about-monster {
-  position: relative;
-}
-
-main .agig-outer .aging-care .about-monster .image {
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  width: 42%;
-}
-
-main .agig-outer .aging-care .about-monster .image img {
-  width: 100%;
-}
-
-main .agig-outer .aging-care .about-monster .intro {
-  background: transparent -webkit-gradient(linear, right top, left top, from(#FFFFFF00), to(#888888)) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(270deg, #FFFFFF00 0%, #888888 100%) 0% 0% no-repeat padding-box;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  padding-left: 80px;
-}
-
-main .agig-outer .aging-care .about-monster .intro h2 {
-  color: #d9b54a;
-  font-size: 2.625rem;
-  margin-bottom: 12px;
-  text-align: initial;
-  text-shadow: 5px 5px 10px #000000;
-}
-
-main .agig-outer .aging-care .about-monster .intro p {
-  font-size: 1.375rem;
-  color: #fff;
-}
-
-main .agig-outer .aging-care .about-monster .intro .p-last {
-  width: 52%;
-}
-
 main .agig-outer .aging-care .footer-makuake {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -828,7 +976,6 @@ main .agig-outer .aging-care .line img {
 
 footer .footer-top {
   padding-top: 120px;
-  margin-top: 80px;
 }
 
 footer .footer-top .footer-makuake {
