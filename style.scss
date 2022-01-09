@@ -31,6 +31,12 @@ header {
 				font-size: 1.75rem;
 			}
 		}
+		.top-man-img{
+			text-align: center;
+			img{
+				width: 50%;
+			}
+		}
 		.top-two-cols {
 			display: flex;
 			width: 69%;
@@ -51,6 +57,19 @@ header {
 					display: block;
 					margin: auto 0;
 					height: 70px;
+				}
+			}
+		}
+		.top-recommend{
+			max-width: 900px;
+			margin: auto;
+			ul{
+				li{
+					font-size: 2rem;
+					list-style: none;
+					span{
+						margin-right: 15px;
+					}
 				}
 			}
 		}
