@@ -1,3 +1,9 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 .top-two-cols {
 	display: flex;
 	width: 69%;
@@ -22,6 +28,10 @@
 		}
 	}
 }
+ul{
+	padding-left: 0;
+}
+
 
 ._display-inline-block{
 	display: inline-block;
@@ -73,8 +83,10 @@ header {
 				li{
 					font-size: 2rem;
 					list-style: none;
-					span{
+					display: flex;
+					span:first-child{
 						margin-right: 15px;
+						
 					}
 				}
 			}
@@ -154,12 +166,32 @@ main {
 				}
 				&__img{
 					text-align: center;
+					margin-bottom: 16px;
 					img{
 						width: 80%;
 					}
+					&-wrap{
+						display: flex;
+						width: 80%;
+						margin: auto;
+						img{
+							&:first-child{
+								margin-right: 15px;
+							}
+						}
+					}
 				}
 				&__text{
-
+					margin-left: 0;
+					margin-right: 0;
+					width: 80%;
+					margin: auto;
+				}
+				&:nth-child(4){
+					.looks-old__contents__item__img{
+						display: flex;
+						
+					}
 				}
 			}
 		}
@@ -171,6 +203,11 @@ main {
 				li{
 					font-size: 2rem;
 					font-weight: bold;
+				}
+			}
+			&-item-img{
+				img{
+					width: 100%;
 				}
 			}
 		}
@@ -212,7 +249,7 @@ main {
 				margin-bottom: 60px;
 			}
 			h4 {
-				width: 1120px;
+				max-width: 1120px;
 				margin: 0 80px 25px 80px;
 				font-size: 1.5rem;
 				padding-left: 15px;
@@ -272,6 +309,7 @@ main {
 			&-text{
 				font-size: 1.5rem;
 				line-height: 3rem;
+				text-align: center;
 				.big{
 					color: gold;
 					font-size: 2.5rem;
@@ -279,7 +317,8 @@ main {
 			}
 		}
 		.main-bottom-accordion {
-			width: 1280px;
+			max-width: 1280px;
+			width: 100%;
 			margin: 0 auto;
 			h2.main-elements {
 				margin-bottom: 40px;
@@ -342,12 +381,7 @@ main {
 				font-size: 3.5rem;
 			}
 		}
-		.three-cols-2 {
-			display: flex;
-			width: 1120px;
-			justify-content: space-between;
-			margin: 0 auto 30px;
-		}
+		
 		p.about-graph {
 			font-size: 1.25rem;
 			.color-1 {
@@ -774,7 +808,6 @@ footer .footer-bottom {
 				}
 			}
 			dt{
-				width: 100%;
 				background-color: gold;
 				color: #000;
 				align-items: center;
@@ -831,18 +864,6 @@ footer .footer-bottom {
 	main {
 		width: 100%;
 		.main-top {
-			.three-cols-2 {
-				width: 95%;
-				.twenty,
-				.thrity,
-				.fourty {
-					width: auto;
-                    padding: 20px;
-					img {
-						width: 100%;
-					}
-				}
-			}
             h2.main-top-h2 {
                 width: 90%;
                 margin: 0 auto;
@@ -1024,7 +1045,7 @@ footer .footer-bottom {
 	}
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:769px) {
 	header {
 		.l-header {
             padding-bottom: 50px;
@@ -1065,36 +1086,41 @@ footer .footer-bottom {
 					font-size: 3rem;
 				}
 			}
-            .three-cols {
-                display: block;
-                width: 90%;
-                img {
-                    width: 100%;
-                    padding-bottom: 30px;
-                }
-            }
-
+			.top-recommend{
+				padding: 0 16px;
+				ul{
+					li{
+						span{
+							i{
+								margin-top: 10px;
+							}
+							&:first-child{
+								font-size: 1.5rem;
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 	main {
 		.main-top {
+			.looks-old{
+				&__contents{
+					&__item{
+						.subject {
+							h3{
+								
+							}
+						}
+					}
+				}
+			}
             p {
                 width: 90%;
                 margin: 0 auto;
                 text-align: left;
             }
-			.three-cols-2 {
-				display: block;
-				.twenty, .thrity, .fourty {
-					margin-bottom: 30px;
-					width: 80%; 
-					margin-left: auto;
-					margin-right: auto;
-					img {
-						width: 100%;
-					}
-				}
-			}
             h2.main-top-h2 {
                 font-size: 1.625rem;
                 text-align: left;
@@ -1102,6 +1128,12 @@ footer .footer-bottom {
                     font-size: 1.625rem;
                 }
             }
+			.measures{
+				padding: 0 16px;
+				&-lists{
+					
+				}
+			}
             .arrow-to-down {
                 width: 100%;
                 margin: 60px auto;
@@ -1123,16 +1155,21 @@ footer .footer-bottom {
                     font-size: 3rem;
                 }
             }
-            p.about-graph {
-                font-size: 1rem;
-            }
-            p.about-graph-right {
-                font-size: 0.75rem;
-                padding: 0;
-                text-align: center;
-            }
+				.human-cells{
+					.human-cells-about{
+						.border-left{
+							margin-bottom: 16px;
+							margin-left: 40px;
+							font-size: 1.8rem;
+						}
+						.stem-cell{
+							padding-right: 16px;
+							padding-left: 16px;
+						}
+					}
+				}
+			
             .main-top-bottom {
-
                 h3 {
                     font-size: 1.75rem;
                     width: 90%;
@@ -1161,6 +1198,38 @@ footer .footer-bottom {
                     text-align: left;
                 }
             }
+			.about-monster{
+				.image{
+					position: inherit;
+					width: 70%;
+					margin: auto;
+					
+				}
+				.intro{
+					padding-left: 0;
+					padding-top: 16px;
+					padding-bottom: 16px;
+					h2{
+						font-size: 2rem;
+						span{
+							font-size: 1.6rem;
+						}
+					}
+					&:last-child{
+						p{
+							width: 90%;
+						}
+					}
+				}
+			}
+			.components-skin{
+				.main-bottom-accordion{
+					.main-elements{
+						width: 100%;
+						background: transparent linear-gradient(90deg, #AAAAAA00 0%, #808080 5%, #808080 95%, #AAAAAA00 100%) 0% 0% no-repeat padding-box;
+					}
+				}
+			}
 		}
         .main-middle {
             .main-middle-reason {
@@ -1232,151 +1301,6 @@ footer .footer-bottom {
                 font-size: 80px;
             }
         }
-        .two-worries {
-            h2.worries {
-                font-size: 3rem;
-            }
-            h3.under-line {
-                font-size: 1.75rem;
-            }
-            .arrow-to-down {
-                width: 100%;
-                img {
-                    width: 100%;
-                }
-            }
-            .inner {
-                width: 90%;
-                .bold {
-                    text-align: left;
-                }
-            }
-            .inner h2 {
-                font-size: 1.75rem;
-                text-align: left;
-                .gold {
-                    font-size: 2.5rem;
-                }
-            }
-        }
-        .agig-outer {
-            .aging-care {
-                width: 100%;
-                h2 {
-                    font-size: 1.75rem;
-                    width: 90%;
-                    margin: 0 auto 30px;
-                }
-                h2.big {
-                    font-size: 2rem;
-                    .bigger {
-                        font-size: 2.5rem;
-                    }
-                }
-                h3.bg-gold {
-                    width: 100%;
-                    font-size: 1.75rem;
-                    margin-bottom: 30px;
-                }
-                h4 {
-                    width: 100%;
-                    margin: 0 20px 25px;
-                }
-                p.suitable {
-                    width: 90%;
-                    margin: 0 auto 30px;
-                }
-                p.stem-cell {
-                    padding: 0;
-                    width: 90%;
-                    margin: 0 auto 30px;
-                }
-                .timemonster {
-                    font-size: 3.75rem;
-                }
-                .about-monster {
-                    .intro {
-                        padding: 30px 20px;
-                        p {
-                            margin: 0;
-                        }
-                        .p-last {
-                            width: 90%;
-                            margin: 0;
-                        }
-                    }
-                    .image {
-                        width: 100%;
-                        position: static;
-                    }
-          
-                }
-                .line {
-                    width: 90%;
-                    img {
-                        width: 100%;
-                    }
-                }
-            }
-        }
-        .main-bottom {
-            .main-bottom-accordion {
-                width: 100%;
-                h2.main-elements {
-                    width: 100%;
-                    font-size: 1.375rem;
-                    br {
-                        display: inline;
-                    }
-                }
-            }
-            .last-section {
-                width: 100%;
-                h2.bg-gray {
-                    width: 100%;
-                    font-size: 1.375rem;
-                    br {
-                        display: inline;
-                    }
-                }
-                .first {
-                    width: 90%;
-                    margin: 0 auto 30px;
-                    text-align: left;
-
-                }
-                .six-cols {
-                    display: block;
-                    width: 90%;
-                    margin: 0 auto;
-                    padding: 0;
-                    .thing {
-                        margin: 0 auto;
-                        width: 100%; 
-                    }
-                }
-                .two-col {
-                    display: block;
-                    width: 90%;
-                    margin: 0 auto 30px;
-                    .left,
-                    .right {
-                        width: 100%;
-                    }
-
-                }
-                .two-col-last {
-                    display: block;
-                    width: 90%;
-                    margin: 0 auto 30px;
-                    .text {
-                        width: 100%;
-                        font-size: 1.375rem;
-                        text-align: left;
-                    }
-                }
-            }
-        }
 	}
     footer {
         .footer-top {
@@ -1433,10 +1357,13 @@ footer .footer-bottom {
             }
             p {
                 font-size: 1rem;
-                text-align: left;
+                // text-align: left;
                 margin: 0 auto 30px;
                 width: 90%;
             }
         }
+		.footer-qa{
+			padding: 0 16px;
+		}
     }
 }
