@@ -919,6 +919,15 @@ footer .footer-bottom p {
   margin-top: 0;
 }
 
+.footer-qa dl h3 {
+  color: #fff;
+  line-height: 3rem;
+  border-left: 7px solid gold;
+  padding-left: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
 .footer-qa dl dt, .footer-qa dl dd {
   display: -webkit-box;
   display: -ms-flexbox;
