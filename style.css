@@ -1182,6 +1182,25 @@ footer .footer-bottom p {
 }
 
 @media screen and (max-width: 769px) {
+  .top-two-cols {
+    display: block;
+  }
+  .top-two-cols .left {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .top-two-cols .left img {
+    width: 100%;
+  }
+  .top-two-cols .right {
+    width: 100%;
+    margin: 0 auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .top-two-cols .right img {
+    width: 60%;
+  }
   header .l-header {
     padding-bottom: 50px;
   }
@@ -1194,23 +1213,6 @@ footer .footer-bottom p {
   }
   header .l-header .main-view {
     display: none;
-  }
-  header .l-header .top-two-cols {
-    display: block;
-  }
-  header .l-header .top-two-cols .left {
-    width: 100%;
-    margin: 0 auto;
-  }
-  header .l-header .top-two-cols .left img {
-    width: 100%;
-  }
-  header .l-header .top-two-cols .right {
-    width: 100%;
-    margin: 0 auto;
-  }
-  header .l-header .top-two-cols .right img {
-    width: 100%;
   }
   header .l-header .subject {
     width: 90%;
@@ -1226,7 +1228,7 @@ footer .footer-bottom p {
     padding: 0 16px;
   }
   header .l-header .top-recommend ul li span i {
-    margin-top: 10px;
+    margin-top: 15px;
   }
   header .l-header .top-recommend ul li span:first-child {
     font-size: 1.5rem;
@@ -1438,6 +1440,95 @@ footer .footer-bottom p {
   }
   footer .footer-qa {
     padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .top-two-cols .right img {
+    width: 100%;
+  }
+  header .l-header .subject h2 {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+  }
+  header .l-header .subject h2 .bigger {
+    font-size: 1.7rem;
+  }
+  header .l-header .top-recommend ul li span:first-child {
+    margin-top: -8px;
+    margin-right: 10px;
+  }
+  header .l-header .top-recommend ul li span:first-child i {
+    font-size: 1rem;
+  }
+  header .l-header .top-recommend ul li span:last-child {
+    font-size: 1rem;
+  }
+  header .l-header .top-man-img img {
+    width: 100%;
+  }
+  header .l-header .forties-skin__text {
+    font-size: 1rem;
+  }
+  main {
+    margin-top: -1px;
+  }
+  main .subject h2 {
+    font-size: 1.2rem !important;
+    line-height: 2.5rem !important;
+  }
+  main .subject h2 .bigger,
+  main .subject h2 .big {
+    font-size: 1.7rem !important;
+  }
+  main .main-top .looks-old .subject h2 .bigger {
+    display: block;
+  }
+  main .main-top .looks-old__contents__item {
+    margin-bottom: 24px;
+  }
+  main .main-top .looks-old__contents__item .subject {
+    margin-bottom: 10px;
+  }
+  main .main-top .looks-old__contents__item .subject h3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  main .main-top .looks-old__contents__item .subject h3 .bigger {
+    font-size: 1.6rem;
+  }
+  main .main-top .looks-old__contents__item__img {
+    margin-bottom: 10px;
+  }
+  main .main-top .looks-old__contents__item__img img {
+    width: 100%;
+  }
+  main .main-top .looks-old__contents__item__img-wrap {
+    width: 100%;
+  }
+  main .main-top .looks-old__contents__item__text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  main .main-top .measures .subject {
+    margin-bottom: 20px;
+  }
+  main .main-top .measures .subject .big {
+    margin: 0;
+    width: 100%;
+  }
+  main .main-top .measures .subject:first-child .bigger:first-child::before {
+    content: "\A";
+    white-space: pre;
+  }
+  main .main-top .measures-lists {
+    padding-left: 30px;
+  }
+  main .main-top .measures-lists li {
+    font-size: 1rem;
+  }
+  main .main-top .measures .arrow-to-down {
+    margin: 30px 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
