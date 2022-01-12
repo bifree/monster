@@ -1481,6 +1481,10 @@ footer .footer-bottom p {
   main .subject h2 .big {
     font-size: 1.7rem !important;
   }
+  main .main-top {
+    margin-bottom: -1px;
+    padding-bottom: 24px;
+  }
   main .main-top .looks-old .subject h2 .bigger {
     display: block;
   }
@@ -1529,6 +1533,137 @@ footer .footer-bottom p {
   }
   main .main-top .measures .arrow-to-down {
     margin: 30px 0;
+  }
+  main .main-top .comments-text {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+  main .main-top .comments-text .bigger {
+    font-size: 1.5rem;
+  }
+  main .main-top .human-cells .human-cells-about {
+    margin-bottom: 30px;
+  }
+  main .main-top .human-cells .human-cells-about .border-left {
+    margin: 16px;
+    padding-left: 10px;
+    font-size: 1.3rem;
+  }
+  main .main-top .human-cells .human-cells-about .stem-cell {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+  main .main-top .about-monster .image {
+    width: 80%;
+  }
+  main .main-top .about-monster .intro h2 {
+    font-size: 1.2rem;
+  }
+  main .main-top .about-monster .intro h2 span {
+    font-size: 1rem;
+  }
+  main .main-top .about-monster .intro p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  main .main-top .components-skin .main-bottom-accordion .main-elements {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 8px 0;
+  }
+  main .main-top .warranty .subject {
+    margin-bottom: 24px;
+  }
+  main .main-top .warranty .subject .big {
+    margin-bottom: 0;
+  }
+  main .main-top .warranty-text {
+    font-size: 1.1rem;
+    line-height: 2.35rem;
+    width: 100%;
+  }
+  main .main-top .warranty-text .big {
+    font-size: 1.5rem;
+  }
+  main .main-top .warranty-text ._sp-new-line::before {
+    content: "\A";
+    white-space: pre;
+  }
+  main .main-top .warranty-text .sp-alert {
+    font-size: 1rem;
+  }
+  main .main-top .warranty-text .sp-display-none {
+    display: none;
+  }
+  footer .footer-top {
+    padding-top: 24px;
+  }
+  footer .footer-top h3 {
+    padding-top: 24px;
+  }
+  footer .footer-top .greeting {
+    width: 90%;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+  }
+  footer .footer-top .greeting .columns {
+    width: 100%;
+  }
+  footer .footer-top .greeting .columns .text {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 16px;
+  }
+  footer .footer-bottom {
+    padding-bottom: 30px;
+  }
+  footer .footer-bottom h3 {
+    padding-top: 30px;
+    margin-bottom: 16px;
+  }
+  footer .footer-bottom p {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 16px;
+    font-size: 1rem;
+  }
+  footer .footer-bottom p .sp-display-none {
+    display: none;
+  }
+  footer .footer-qa-inner .subject .big .bigger {
+    font-size: 1.7rem;
+  }
+  footer .footer-qa-inner dl dt {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    margin-bottom: 10px;
+  }
+  footer .footer-qa-inner dl dt span:first-child,
+  footer .footer-qa-inner dl dd span:first-child {
+    margin-top: -3px;
+    font-size: 1.5rem;
+    margin-right: 5px;
+  }
+  footer .footer-qa-inner dl dt span:last-child,
+  footer .footer-qa-inner dl dd span:last-child {
+    font-size: 1.2rem;
+  }
+  footer .footer-qa-inner dl dd {
+    margin-bottom: 24px;
+  }
+  footer .footer-qa-inner dl dd span:last-child {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  footer .footer-qa-inner dl h3 {
+    font-size: 1.3rem;
+    padding-left: 6px;
   }
 }
 /*# sourceMappingURL=style.css.map */
