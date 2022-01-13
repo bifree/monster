@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   padding: 0;
   margin: 0;
@@ -78,18 +77,18 @@ header .l-header .subject h3, header .l-header .subject h2 {
 }
 
 header .l-header .subject h3 .bigger, header .l-header .subject h2 .bigger {
-  font-size: 3.5rem;
+  font-size: 56px;
   color: #d9b54a;
 }
 
 header .l-header .subject h2 {
-  font-size: 2.625rem;
+  font-size: 42px;
   line-height: 3.8125rem;
 }
 
 header .l-header .subject h3 {
   line-height: 2.5rem;
-  font-size: 1.75rem;
+  font-size: 28px;
 }
 
 header .l-header .top-man-img {
@@ -106,7 +105,7 @@ header .l-header .top-recommend {
 }
 
 header .l-header .top-recommend ul li {
-  font-size: 2rem;
+  font-size: 32px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,7 +119,7 @@ header .l-header .top-recommend ul li span:first-child {
 header .l-header .forties-skin__text {
   font-weight: bold;
   text-align: center;
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 2.25rem;
 }
 
@@ -151,18 +150,18 @@ main .subject h3, main .subject h2 {
 }
 
 main .subject h3 .bigger, main .subject h2 .bigger {
-  font-size: 3.5rem;
+  font-size: 40px;
   color: #d9b54a;
 }
 
 main .subject h2 {
-  font-size: 2.625rem;
+  font-size: 32px;
   line-height: 3.8125rem;
 }
 
 main .subject h3 {
   line-height: 2.5rem;
-  font-size: 1.75rem;
+  font-size: 28px;
 }
 
 main .main-top {
@@ -174,7 +173,7 @@ main .main-top {
 main .main-top p {
   font-weight: bold;
   text-align: center;
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 2.25rem;
   margin-top: 0;
 }
@@ -198,7 +197,7 @@ main .main-top .looks-old__contents__item .subject {
 }
 
 main .main-top .looks-old__contents__item .subject h3 .bigger {
-  font-size: 2.5rem;
+  font-size: 40px;
 }
 
 main .main-top .looks-old__contents__item__img {
@@ -241,7 +240,7 @@ main .main-top .measures {
 }
 
 main .main-top .measures-lists li {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -265,12 +264,12 @@ main .main-top .comments-img img {
 }
 
 main .main-top .comments-text {
-  font-size: 2rem;
+  font-size: 32px;
   margin-top: 20px;
 }
 
 main .main-top .comments-text .bigger {
-  font-size: 3rem;
+  font-size: 48px;
   line-height: 2.25;
   color: #d9b54a;
 }
@@ -297,18 +296,18 @@ main .main-top .human-cells-about {
 main .main-top .human-cells h4 {
   max-width: 1120px;
   margin: 0 80px 25px 80px;
-  font-size: 1.5rem;
+  font-size: 24px;
   padding-left: 15px;
   border-left: #d9b54a 8px solid;
 }
 
 main .main-top .human-cells p {
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 2.25rem;
 }
 
 main .main-top .human-cells p.stem-cell {
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 2.25rem;
   padding-left: 80px;
   padding-right: 80px;
@@ -343,18 +342,18 @@ main .main-top .about-monster .intro {
 
 main .main-top .about-monster .intro h2 {
   color: #d9b54a;
-  font-size: 2.625rem;
+  font-size: 42px;
   margin-bottom: 12px;
   text-align: initial;
   text-shadow: 5px 5px 10px #000000;
 }
 
 main .main-top .about-monster .intro h2 span {
-  font-size: 1.8rem;
+  font-size: 28px;
 }
 
 main .main-top .about-monster .intro p {
-  font-size: 1.375rem;
+  font-size: 22px;
   color: #fff;
 }
 
@@ -363,68 +362,19 @@ main .main-top .about-monster .intro .p-last {
 }
 
 main .main-top .warranty-text {
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 3rem;
   text-align: center;
 }
 
 main .main-top .warranty-text .big {
   color: gold;
-  font-size: 2.5rem;
-}
-
-main .main-top .main-bottom-accordion {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-main .main-top .main-bottom-accordion h2.main-elements {
-  margin-bottom: 40px;
-  background: transparent -webkit-gradient(linear, left top, right top, from(#AAAAAA00), color-stop(23%, #808080), color-stop(77%, #808080), to(#AAAAAA00)) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(90deg, #AAAAAA00 0%, #808080 23%, #808080 77%, #AAAAAA00 100%) 0% 0% no-repeat padding-box;
-  color: #fff;
-  text-align: center;
-  font-size: 2rem;
-  line-height: 46px;
-}
-
-main .main-top .main-bottom-accordion h2.main-elements br {
-  display: none;
-}
-
-main .main-top .main-top-bottom h3 {
-  font-size: 2rem;
-  line-height: 46px;
-  text-align: center;
-}
-
-main .main-top .main-top-bottom h3 .bigger {
   font-size: 40px;
-  line-height: 46px;
-}
-
-main .main-top .main-top-bottom h3 .gold {
-  background-color: #d9b54a;
-  color: #000;
-}
-
-main .main-top .main-top-bottom h4 {
-  text-align: center;
-}
-
-main .main-top .main-top-bottom h4 span {
-  color: #d9b54a;
-  font-size: 100px;
-}
-
-main .main-top .main-top-bottom p {
-  text-align: center;
 }
 
 main .main-top h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 main .main-top h2 .font-gold {
@@ -432,394 +382,16 @@ main .main-top h2 .font-gold {
 }
 
 main .main-top h2 .bigger {
-  font-size: 2.5rem;
-}
-
-main .main-top h2 .bigger .dotted {
-  padding-top: .4em;
-  background-position: top left -2px;
-  background-repeat: repeat-x;
-  background-size: 1em .3em;
-  background-image: radial-gradient(0.1em 0.1em at center center, orange, orange 100%, transparent);
+  font-size: 40px;
 }
 
 main .main-top h2.big {
-  font-size: 2.65rem;
+  font-size: 42px;
   margin-bottom: 65px;
 }
 
 main .main-top h2.big .bigger {
-  font-size: 3.5rem;
-}
-
-main .main-top p.about-graph {
-  font-size: 1.25rem;
-}
-
-main .main-top p.about-graph .color-1 {
-  color: #d9b54a;
-}
-
-main .main-top p.about-graph .color-3 {
-  color: #808080;
-}
-
-main .main-top p.about-graph .color-2 {
-  color: #D3BD94;
-}
-
-main .main-top p.about-graph .color-4 {
-  color: #333333;
-}
-
-main .main-top p.about-graph-right {
-  text-align: right;
-  font-size: 1rem;
-  padding-right: 80px;
-  margin-bottom: 65px;
-}
-
-main .main-middle {
-  padding-top: 65px;
-}
-
-main .main-middle .main-middle-reason h2 {
-  text-align: center;
-  font-size: 2rem;
-  line-height: 2.625rem;
-  font-weight: bold;
-}
-
-main .main-middle .main-middle-reason h2 span.gold {
-  font-size: 3rem;
-  color: #d9b54a;
-}
-
-main .main-middle .main-middle-reason .two-columns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 1120px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0 auto;
-  margin-bottom: 45px;
-}
-
-main .main-middle .main-middle-reason .two-columns .outer-reason {
-  border: 2px solid #d9b54a;
-  width: calc((100% - 40px) / 2);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  position: relative;
-  padding: 25px 40px 0;
-  margin-top: 122px;
-}
-
-main .main-middle .main-middle-reason .two-columns .outer-reason .reason-box {
-  margin-bottom: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-main .main-middle .main-middle-reason .two-columns .outer-reason .reason-box .right {
-  margin-left: 30px;
-}
-
-main .main-middle .main-middle-reason .two-columns .outer-reason .reason-box .right p {
-  font-size: 1.5rem;
-}
-
-main .main-middle .main-middle-reason .two-columns .outer-reason::before {
-  font-size: 1.875rem;
-  font-weight: bold;
-  line-height: 80px;
-  position: absolute;
-  top: -80px;
-  left: 0;
-  height: 80px;
-  padding: 0 1em;
-  content: '\外的要因';
-  color: #000;
-  background: #d9b54a;
-}
-
-main .main-middle .main-middle-reason .two-columns .inner-reason {
-  border: 2px solid #d9b54a;
-  width: calc((100% - 40px) / 2);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-top: 122px;
-  position: relative;
-  padding: 25px 40px 0;
-}
-
-main .main-middle .main-middle-reason .two-columns .inner-reason .reason-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 25px;
-}
-
-main .main-middle .main-middle-reason .two-columns .inner-reason .reason-box .right {
-  margin-left: 30px;
-}
-
-main .main-middle .main-middle-reason .two-columns .inner-reason .reason-box .right p {
-  font-size: 1.5rem;
-}
-
-main .main-middle .main-middle-reason .two-columns .inner-reason::before {
-  font-size: 1.875rem;
-  font-weight: bold;
-  line-height: 80px;
-  position: absolute;
-  top: -80px;
-  left: 0;
-  height: 80px;
-  padding: 0 1em;
-  content: '\内的要因';
-  color: #000;
-  background: #d9b54a;
-}
-
-main .main-middle .main-middle-reason p.last {
-  font-size: 1.375rem;
-  margin-bottom: 85px;
-  text-align: center;
-  font-weight: bold;
-}
-
-main .main-skin {
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-  padding-top: 85px;
-  padding-bottom: 80px;
-}
-
-main .main-skin h2 {
-  font-size: 2rem;
-  line-height: 3rem;
-  margin-bottom: 48px;
-}
-
-main .main-skin h2 .bigger {
-  font-size: 100px;
-  line-height: 100px;
-  color: #d9b54a;
-}
-
-main .main-skin h1 {
-  font-size: 2.625rem;
-  margin-bottom: 35px;
-}
-
-main .main-skin h1 .bigger {
-  line-height: 5rem;
-  font-size: 3.5rem;
-}
-
-main .main-skin p.question {
-  font-size: 1.375rem;
-  line-height: 2rem;
-}
-
-main .main-skin p.question br {
-  display: none;
-}
-
-main .main-skin .answer {
-  margin-bottom: 40px;
-}
-
-main .main-skin h3 {
-  font-size: 2rem;
-  margin-bottom: 5px;
-}
-
-main .main-skin h3 .dotted {
-  padding-top: .4em;
-  background-position: top left -2px;
-  background-repeat: repeat-x;
-  background-size: 1em .3em;
-  background-image: radial-gradient(0.1em 0.1em at center center, orange, orange 100%, transparent);
-}
-
-main .main-skin p {
-  font-size: 1.375rem;
-  font-weight: bold;
-  line-height: 2.25rem;
-}
-
-main .main-skin p .except {
-  background-color: #d9b54a;
-  line-height: 2rem;
-  font-size: 1.75rem;
-  color: #000;
-}
-
-main .two-worries {
-  padding-top: 75px;
-  text-align: center;
-}
-
-main .two-worries .title {
-  font-size: 2rem;
-  line-height: 46px;
-}
-
-main .two-worries h2.worries {
-  line-height: 81px;
-  font-size: 4rem;
-}
-
-main .two-worries h2.worries .bg-gold {
-  background-color: #d9b54a;
-}
-
-main .two-worries h3.under-line {
-  border-bottom: 1px solid #333;
-  font-size: 2rem;
-  margin: 0 auto 55px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  line-height: 46px;
-}
-
-main .two-worries .arrow-to-down {
-  margin: 55px auto 40px;
-}
-
-main .two-worries .inner {
-  padding-bottom: 75px;
-}
-
-main .two-worries .inner .under-line {
-  border-bottom: #333 solid 1px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0 auto;
-  font-size: 1.375rem;
-  line-height: 36px;
-}
-
-main .two-worries .inner p.bold {
-  margin-top: 40px;
-  font-weight: bold;
-  font-size: 1.375rem;
-  line-height: 36px;
-}
-
-main .two-worries .inner h2 {
-  margin-top: 50px;
-  font-size: 2rem;
-  letter-spacing: 4px;
-  line-height: 46px;
-}
-
-main .two-worries .inner h2 .gold {
-  color: #d9b54a;
-  line-height: 40px;
-  font-size: 40px;
-}
-
-main .agig-outer {
-  background-color: #000;
-  color: #fff;
-}
-
-main .agig-outer .aging-care {
-  width: 1280px;
-  margin: 0 auto 80px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-main .agig-outer .aging-care h2 {
-  font-size: 2rem;
-  text-align: center;
-}
-
-main .agig-outer .aging-care h2.big {
-  margin-top: 13px;
-  font-size: 2.625rem;
-  margin-bottom: 70px;
-}
-
-main .agig-outer .aging-care h2.big .bigger {
-  font-size: 3.5rem;
-  line-height: 3.8125rem;
-}
-
-main .agig-outer .aging-care p.suitable {
-  font-size: 1.375rem;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 55px;
-}
-
-main .agig-outer .aging-care h3.bg-gold {
-  width: 1120px;
-  margin: 0 auto;
-  background: transparent -webkit-gradient(linear, left top, right top, from(#AAAAAA00), color-stop(23%, #d9b54a), color-stop(77%, #d9b54a), to(#AAAAAA00)) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(90deg, #AAAAAA00 0%, #d9b54a 23%, #d9b54a 77%, #AAAAAA00 100%) 0% 0% no-repeat padding-box;
-  text-align: center;
-  font-size: 2rem;
-  line-height: 3.5rem;
-}
-
-main .agig-outer .aging-care h4 {
-  width: 1120px;
-  margin: 0 80px 25px 80px;
-  font-size: 1.5rem;
-  padding-left: 15px;
-  border-left: #d9b54a 8px solid;
-}
-
-main .agig-outer .aging-care p {
-  font-size: 1.125rem;
-  line-height: 2.25rem;
-}
-
-main .agig-outer .aging-care p.stem-cell {
-  font-size: 1.125rem;
-  line-height: 2.25rem;
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-main .agig-outer .aging-care .timemonster {
-  font-size: 4.125rem;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 65px;
-}
-
-main .agig-outer .aging-care .footer-makuake {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 90px auto 0;
-}
-
-main .agig-outer .aging-care .line {
-  width: 40%;
-  margin: 51px auto 0;
-}
-
-main .agig-outer .aging-care .line img {
-  width: 100%;
+  font-size: 56px;
 }
 
 footer .footer-top {
@@ -855,7 +427,7 @@ footer .footer-top .greeting h3.greeting-bottom {
 }
 
 footer .footer-top .greeting h3.greeting-bottom .small {
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 footer .footer-top .greeting h3.greeting-bottom br {
@@ -863,7 +435,7 @@ footer .footer-top .greeting h3.greeting-bottom br {
 }
 
 footer .footer-top .greeting h4 {
-  font-size: 2rem;
+  font-size: 32px;
   margin-bottom: 75px;
 }
 
@@ -875,12 +447,42 @@ footer .footer-top .greeting .columns {
 }
 
 footer .footer-top .greeting .columns .text {
-  font-size: 0.875rem;
+  font-size: 14px;
   line-height: 1.5rem;
   text-align: justify;
   width: 760px;
   margin-left: auto;
   margin-right: 40px;
+}
+
+footer .footer-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+
+footer .footer-menu li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+footer .footer-menu li a {
+  color: #fff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  font-size: 16px;
+}
+
+footer .footer-menu li a:hover {
+  opacity: .7;
+  text-decoration: none;
 }
 
 .pc-none {
@@ -914,7 +516,7 @@ footer .footer-top h3,
 footer .footer-bottom h3 {
   margin-top: 0;
   padding-top: 100px;
-  font-size: 2rem;
+  font-size: 32px;
   line-height: 2.875rem;
   margin-bottom: 40px;
 }
@@ -941,13 +543,13 @@ footer .footer-bottom p {
 }
 
 .footer-qa .subject h2 {
-  font-size: 2.2rem;
+  font-size: 32px;
   margin: 0;
 }
 
 .footer-qa .subject h2 .bigger {
   color: gold;
-  font-size: 3rem;
+  font-size: 48px;
 }
 
 .footer-qa dl {
@@ -959,7 +561,7 @@ footer .footer-bottom p {
   line-height: 3rem;
   border-left: 7px solid gold;
   padding-left: 10px;
-  font-size: 1.8rem;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -967,14 +569,14 @@ footer .footer-bottom p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 1.375rem;
+  font-size: 22px;
   font-weight: bold;
   padding: 8px 10px;
 }
 
 .footer-qa dl dt span:first-child, .footer-qa dl dd span:first-child {
   margin-right: 15px;
-  font-size: 1.5em;
+  font-size: 32px;
 }
 
 .footer-qa dl dt {
@@ -1024,24 +626,16 @@ footer .footer-bottom p {
     width: 100%;
   }
   header .l-header .subject h2 {
-    font-size: 2.2rem;
+    font-size: 32px;
   }
   header .l-header .subject h2 .bigger {
-    font-size: 3rem;
+    font-size: 56px;
   }
   main {
     width: 100%;
   }
-  main .main-top h2.main-top-h2 {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 1.5rem;
-  }
-  main .main-top h2.main-top-h2 .bg-gold {
-    font-size: 1.625rem;
-  }
   main .main-top .main-top-bottom h3 {
-    font-size: 1.75rem;
+    font-size: 28px;
   }
   main .main-middle .main-middle-reason h2 {
     width: 90%;
@@ -1056,102 +650,8 @@ footer .footer-bottom p {
   main .main-middle .main-middle-reason .two-columns .inner-reason {
     width: calc((100% - 40px) / 2);
   }
-  main .main-skin h1 {
-    font-size: 2rem;
-    width: 90%;
-    margin: 0 auto 45px;
-  }
-  main .main-skin h1 .bigger {
-    font-size: 2.5rem;
-  }
-  main .main-skin p.question {
-    width: 90%;
-    margin: 0 auto 45px;
-  }
-  main .main-skin p.question br {
-    display: inline;
-  }
-  main .main-skin h3 {
-    width: 90%;
-    margin: 0 auto 45px;
-    font-size: 1.75rem;
-  }
-  main .main-skin p {
-    width: 90%;
-    margin: 0 auto 45px;
-    font-size: 1.25rem;
-  }
-  main .agig-outer .aging-care {
-    width: 100%;
-  }
-  main .agig-outer .aging-care h2 {
-    width: 90%;
-    margin: 0 auto 45px;
-  }
-  main .agig-outer .aging-care h3.bg-gold {
-    width: 100%;
-    margin: 0 auto 45px;
-  }
-  main .agig-outer .aging-care p.suitable {
-    width: 90%;
-    margin: 0 auto 45px;
-    text-align: left;
-  }
-  main .agig-outer .aging-care .about-monster .intro {
-    width: 100%;
-    padding: 0;
-  }
-  main .agig-outer .aging-care .about-monster .intro p,
-  main .agig-outer .aging-care .about-monster .intro .p-last {
-    width: 90%;
-    margin: 0 auto 45px;
-  }
-  main .agig-outer .aging-care .about-monster .image {
-    width: 100%;
-    position: static;
-  }
-  main .agig-outer .aging-care .line {
-    width: 80%;
-  }
-  main .agig-outer .aging-care .footer-makuake img {
-    width: 100%;
-  }
-  main .main-bottom .main-bottom-accordion {
-    width: 100%;
-  }
-  main .main-bottom .main-bottom-accordion h2.main-elements br {
-    display: none;
-  }
-  main .main-bottom .last-section {
-    width: 100%;
-  }
-  main .main-bottom .last-section h2.bg-gray br {
-    display: none;
-  }
-  main .main-bottom .last-section .six-cols {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  main .main-bottom .last-section .six-cols .thing {
-    width: 33%;
-    background-repeat: no-repeat;
-    padding-bottom: 50px;
-  }
-  main .main-bottom .last-section .two-col {
-    display: block;
-  }
-  main .main-bottom .last-section .two-col .left,
-  main .main-bottom .last-section .two-col .right {
-    width: 100%;
-  }
-  main .main-bottom .last-section .two-col .left .two-col,
-  main .main-bottom .last-section .two-col .right .two-col {
-    width: 90%;
-    margin: 0 auto;
-  }
-  main .main-bottom .last-section .two-col .left .two-col img,
-  main .main-bottom .last-section .two-col .right .two-col img {
-    margin-right: 0;
+  footer .footer-top {
+    margin-top: -1px;
   }
   footer .footer-top .greeting {
     width: 90%;
@@ -1178,6 +678,12 @@ footer .footer-bottom p {
   footer .footer-bottom p {
     width: 90%;
     margin: 0 auto;
+  }
+  footer .footer-qa {
+    margin-top: -1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 32px;
   }
 }
 
@@ -1219,10 +725,10 @@ footer .footer-bottom p {
     margin: 0 auto;
   }
   header .l-header .subject h2 {
-    font-size: 2.2rem;
+    font-size: 35px;
   }
   header .l-header .subject h2 .bigger {
-    font-size: 3rem;
+    font-size: 48px;
   }
   header .l-header .top-recommend {
     padding: 0 16px;
@@ -1231,19 +737,12 @@ footer .footer-bottom p {
     margin-top: 15px;
   }
   header .l-header .top-recommend ul li span:first-child {
-    font-size: 1.5rem;
+    font-size: 32px;
   }
   main .main-top p {
     width: 90%;
     margin: 0 auto;
     text-align: left;
-  }
-  main .main-top h2.main-top-h2 {
-    font-size: 1.625rem;
-    text-align: left;
-  }
-  main .main-top h2.main-top-h2 .bg-gold {
-    font-size: 1.625rem;
   }
   main .main-top .measures {
     padding: 0 16px;
@@ -1256,53 +755,30 @@ footer .footer-bottom p {
     width: 100%;
   }
   main .main-top h2 {
-    font-size: 1.75rem;
-    width: 90%;
+    font-size: 28px;
+    width: 100%;
     margin: 0 auto;
   }
   main .main-top h2 .bigger {
-    font-size: 2rem;
+    font-size: 32px;
   }
   main .main-top h2.big {
-    font-size: 2.2rem;
+    font-size: 32px;
   }
   main .main-top h2.big .bigger {
-    font-size: 3rem;
+    font-size: 56px;
+  }
+  main .main-top .human-cells .human-cells-img {
+    margin-bottom: 24px;
   }
   main .main-top .human-cells .human-cells-about .border-left {
     margin-bottom: 16px;
     margin-left: 40px;
-    font-size: 1.8rem;
+    font-size: 28px;
   }
   main .main-top .human-cells .human-cells-about .stem-cell {
     padding-right: 16px;
     padding-left: 16px;
-  }
-  main .main-top .main-top-bottom h3 {
-    font-size: 1.75rem;
-    width: 90%;
-    margin: 0 auto 30px;
-  }
-  main .main-top .main-top-bottom h3 .bigger {
-    font-size: 2.2rem;
-  }
-  main .main-top .main-top-bottom h3 .bigger span.dotted {
-    padding-top: 0.3rem;
-  }
-  main .main-top .main-top-bottom h3 .gold {
-    font-size: 1.5rem;
-  }
-  main .main-top .main-top-bottom h4 {
-    width: 90%;
-    margin: 0 auto 30px;
-  }
-  main .main-top .main-top-bottom h4 span {
-    font-size: 80px;
-  }
-  main .main-top .main-top-bottom p {
-    margin-bottom: 30px;
-    font-size: 1.25rem;
-    text-align: left;
   }
   main .main-top .about-monster .image {
     position: inherit;
@@ -1315,10 +791,11 @@ footer .footer-bottom p {
     padding-bottom: 16px;
   }
   main .main-top .about-monster .intro h2 {
-    font-size: 2rem;
+    font-size: 32px;
+    width: 90%;
   }
   main .main-top .about-monster .intro h2 span {
-    font-size: 1.6rem;
+    font-size: 24px;
   }
   main .main-top .about-monster .intro:last-child p {
     width: 90%;
@@ -1328,66 +805,8 @@ footer .footer-bottom p {
     background: transparent -webkit-gradient(linear, left top, right top, from(#AAAAAA00), color-stop(5%, #808080), color-stop(95%, #808080), to(#AAAAAA00)) 0% 0% no-repeat padding-box;
     background: transparent linear-gradient(90deg, #AAAAAA00 0%, #808080 5%, #808080 95%, #AAAAAA00 100%) 0% 0% no-repeat padding-box;
   }
-  main .main-middle .main-middle-reason h2 {
-    font-size: 1.75rem;
-    width: 90%;
-    margin: 0 auto;
-    text-align: left;
-  }
-  main .main-middle .main-middle-reason h2 span span.gold {
-    font-size: 2.5rem;
-  }
-  main .main-middle .main-middle-reason .two-columns {
-    display: block;
-  }
-  main .main-middle .main-middle-reason .two-columns .outer-reason,
-  main .main-middle .main-middle-reason .two-columns .inner-reason {
-    width: 100%;
-    padding: 25px 20px 0;
-  }
-  main .main-middle .main-middle-reason p.last {
-    width: 90%;
-    margin: 0 auto 30px;
-  }
-  main .main-skin h2 {
-    font-size: 1.75rem;
-    width: 90%;
-    margin: 0 auto 30px;
-  }
-  main .main-skin h1 {
-    font-size: 2.2rem;
-    width: 90%;
-    margin: 0 auto 30px;
-    text-align: left;
-  }
-  main .main-skin h1 .bigger {
-    font-size: 3rem;
-  }
-  main .main-skin p {
-    width: 90%;
-    margin: 0 auto 30px;
-    text-align: left;
-  }
-  main .main-skin p.question br {
-    display: none;
-  }
-  main .main-skin p.answer img {
-    width: 100%;
-  }
-  main .main-skin h3 {
-    font-size: 1.625rem;
-    width: 90%;
-    margin: 0 auto 30px;
-    text-align: left;
-  }
-  main .main-skin h3 .dotted {
-    padding-top: 0.3rem;
-  }
-  main .main-skin h2 .bigger {
-    font-size: 80px;
-  }
   footer .footer-top .greeting h3 {
-    font-size: 1.5rem;
+    font-size: 24px;
     width: 90%;
     margin: 0 auto 30px;
   }
@@ -1399,7 +818,7 @@ footer .footer-bottom p {
     width: 100%;
   }
   footer .footer-top .greeting h4 {
-    font-size: 1.5rem;
+    font-size: 24px;
     width: 90%;
     margin: 0 auto 30px;
   }
@@ -1434,12 +853,22 @@ footer .footer-bottom p {
     margin: 0 auto 30px;
   }
   footer .footer-bottom p {
-    font-size: 1rem;
+    font-size: 16px;
     margin: 0 auto 30px;
     width: 90%;
   }
   footer .footer-qa {
     padding: 0 16px;
+  }
+  footer .footer-menu {
+    display: block;
+  }
+  footer .footer-menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  footer .footer-menu li a {
+    font-size: 14px;
   }
 }
 
@@ -1448,38 +877,38 @@ footer .footer-bottom p {
     width: 100%;
   }
   header .l-header .subject h2 {
-    font-size: 1.2rem;
+    font-size: 18px;
     line-height: 2.5rem;
   }
   header .l-header .subject h2 .bigger {
-    font-size: 1.7rem;
+    font-size: 24px;
   }
   header .l-header .top-recommend ul li span:first-child {
     margin-top: -8px;
     margin-right: 10px;
   }
   header .l-header .top-recommend ul li span:first-child i {
-    font-size: 1rem;
+    font-size: 16px;
   }
   header .l-header .top-recommend ul li span:last-child {
-    font-size: 1rem;
+    font-size: 16px;
   }
   header .l-header .top-man-img img {
     width: 100%;
   }
   header .l-header .forties-skin__text {
-    font-size: 1rem;
+    font-size: 16px;
   }
   main {
     margin-top: -1px;
   }
   main .subject h2 {
-    font-size: 1.2rem !important;
+    font-size: 18px !important;
     line-height: 2.5rem !important;
   }
   main .subject h2 .bigger,
   main .subject h2 .big {
-    font-size: 1.7rem !important;
+    font-size: 24px !important;
   }
   main .main-top {
     margin-bottom: -1px;
@@ -1495,11 +924,11 @@ footer .footer-bottom p {
     margin-bottom: 10px;
   }
   main .main-top .looks-old__contents__item .subject h3 {
-    font-size: 1.2rem;
+    font-size: 16px;
     line-height: 2rem;
   }
   main .main-top .looks-old__contents__item .subject h3 .bigger {
-    font-size: 1.6rem;
+    font-size: 18px;
   }
   main .main-top .looks-old__contents__item__img {
     margin-bottom: 10px;
@@ -1511,7 +940,7 @@ footer .footer-bottom p {
     width: 100%;
   }
   main .main-top .looks-old__contents__item__text {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5rem;
   }
   main .main-top .measures .subject {
@@ -1529,19 +958,19 @@ footer .footer-bottom p {
     padding-left: 30px;
   }
   main .main-top .measures-lists li {
-    font-size: 1rem;
+    font-size: 16px;
   }
   main .main-top .measures .arrow-to-down {
     margin: 30px 0;
   }
   main .main-top .comments-text {
-    font-size: 1rem;
+    font-size: 16px;
     width: 100%;
     text-align: center;
     line-height: 1.5rem;
   }
   main .main-top .comments-text .bigger {
-    font-size: 1.5rem;
+    font-size: 18px;
   }
   main .main-top .human-cells .human-cells-about {
     margin-bottom: 30px;
@@ -1549,10 +978,10 @@ footer .footer-bottom p {
   main .main-top .human-cells .human-cells-about .border-left {
     margin: 16px;
     padding-left: 10px;
-    font-size: 1.3rem;
+    font-size: 19px;
   }
   main .main-top .human-cells .human-cells-about .stem-cell {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5rem;
     font-weight: 400;
   }
@@ -1560,17 +989,17 @@ footer .footer-bottom p {
     width: 80%;
   }
   main .main-top .about-monster .intro h2 {
-    font-size: 1.2rem;
+    font-size: 18px;
   }
   main .main-top .about-monster .intro h2 span {
-    font-size: 1rem;
+    font-size: 16px;
   }
   main .main-top .about-monster .intro p {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.5rem;
   }
   main .main-top .components-skin .main-bottom-accordion .main-elements {
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 2rem;
     padding: 8px 0;
   }
@@ -1581,12 +1010,12 @@ footer .footer-bottom p {
     margin-bottom: 0;
   }
   main .main-top .warranty-text {
-    font-size: 1.1rem;
+    font-size: 18px;
     line-height: 2.35rem;
     width: 100%;
   }
   main .main-top .warranty-text .big {
-    font-size: 1.5rem;
+    font-size: 24px;
   }
   main .main-top .warranty-text ._sp-new-line::before {
     content: "\A";
@@ -1630,13 +1059,13 @@ footer .footer-bottom p {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 0 16px;
-    font-size: 1rem;
+    font-size: 16px;
   }
   footer .footer-bottom p .sp-display-none {
     display: none;
   }
   footer .footer-qa-inner .subject .big .bigger {
-    font-size: 1.7rem;
+    font-size: 24px;
   }
   footer .footer-qa-inner dl dt {
     -webkit-box-align: start;
@@ -1647,22 +1076,22 @@ footer .footer-bottom p {
   footer .footer-qa-inner dl dt span:first-child,
   footer .footer-qa-inner dl dd span:first-child {
     margin-top: -3px;
-    font-size: 1.5rem;
+    font-size: 24px;
     margin-right: 5px;
   }
   footer .footer-qa-inner dl dt span:last-child,
   footer .footer-qa-inner dl dd span:last-child {
-    font-size: 1.2rem;
+    font-size: 18px;
   }
   footer .footer-qa-inner dl dd {
     margin-bottom: 24px;
   }
   footer .footer-qa-inner dl dd span:last-child {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: normal;
   }
   footer .footer-qa-inner dl h3 {
-    font-size: 1.3rem;
+    font-size: 20px;
     padding-left: 6px;
   }
 }
